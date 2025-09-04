@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("🚀 Hello from DevOps CI/CD Project!");
 });
 
-app.listen(port, () => {
-  console.log(`App running on http://localhost:${port}`);
+app.listen(3000, '0.0.0.0', () => {
+  console.log("Server running on port 3000");
 });
 
